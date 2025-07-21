@@ -148,7 +148,7 @@ enum {
   HOURS,
   MINUTES,
   SNAKE
-} button_state = NORMAL;
+} button_state = HOURS;
 
 bool yellow_button_was_pressed = false;
 bool green_button_was_pressed = false;
