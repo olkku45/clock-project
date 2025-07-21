@@ -557,9 +557,9 @@
       <length value="0.25" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
-        <point x="7.1" y="3.8"/>
-        <point x="7.3" y="3.8"/>
-        <point x="7.2" y="3.8"/>
+        <point x="7.7" y="3.1"/>
+        <point x="7.5" y="3.4"/>
+        <point x="7.6" y="3.25"/>
       </points>
       <bodyColor hex="404040"/>
       <borderColor hex="2c2c2c"/>
@@ -577,9 +577,9 @@
       <name>SW1</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="7.9" y="4.4"/>
-        <point x="7.9" y="4.6"/>
-        <point x="7.9" y="4.8"/>
+        <point x="7.6" y="4.4"/>
+        <point x="7.6" y="4.599999999999999"/>
+        <point x="7.6" y="4.8"/>
       </controlPoints>
       <switchType>SPDT</switchType>
       <orientation>VERTICAL</orientation>
@@ -990,10 +990,10 @@
       <name>W1</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.4" y="4.0"/>
-        <point x="7.7" y="4.3"/>
-        <point x="7.9" y="4.6"/>
-        <point x="7.9" y="4.6"/>
+        <point x="7.1" y="4.0"/>
+        <point x="7.4" y="4.3"/>
+        <point x="7.6" y="4.6"/>
+        <point x="7.6" y="4.6"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -1008,10 +1008,10 @@
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.4" y="3.9"/>
-        <point x="7.8" y="4.0"/>
-        <point x="7.6" y="4.2"/>
-        <point x="7.9" y="4.4"/>
+        <point x="7.1" y="3.9"/>
+        <point x="7.4" y="4.1"/>
+        <point x="7.3" y="4.2"/>
+        <point x="7.6" y="4.4"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -1026,10 +1026,10 @@
       <name>W3</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.4" y="3.8"/>
-        <point x="7.8" y="3.7"/>
-        <point x="7.8" y="3.7"/>
-        <point x="7.8" y="3.5"/>
+        <point x="8.0" y="3.4"/>
+        <point x="7.9" y="3.3"/>
+        <point x="7.8" y="3.2"/>
+        <point x="7.7" y="3.1"/>
       </controlPoints2>
       <color hex="ff3300"/>
       <pointCount>FOUR</pointCount>
@@ -1044,10 +1044,10 @@
       <name>W4</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="7.3" y="3.9"/>
-        <point x="7.7" y="3.7"/>
-        <point x="7.8" y="3.9"/>
-        <point x="8.0" y="3.5"/>
+        <point x="7.2" y="3.9"/>
+        <point x="7.6" y="3.7"/>
+        <point x="7.7" y="3.9"/>
+        <point x="7.9" y="3.5"/>
       </controlPoints2>
       <color hex="330033"/>
       <pointCount>FOUR</pointCount>
@@ -1188,7 +1188,7 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB1</name>
-      <point x="7.9" y="3.4"/>
+      <point x="8.2" y="3.4"/>
       <text>Patteri</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1224,9 +1224,45 @@
       <striped>false</striped>
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W14</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="5.9" y="5.0"/>
+        <point x="4.9" y="5.0"/>
+        <point x="3.9" y="5.0"/>
+        <point x="3.9" y="5.3"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W15</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="7.1" y="3.8"/>
+        <point x="7.5" y="3.7"/>
+        <point x="7.5" y="3.7"/>
+        <point x="7.5" y="3.4"/>
+      </controlPoints2>
+      <color hex="ff3300"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB3</name>
-      <point x="5.7" y="4.6"/>
+      <point x="5.7" y="4.4"/>
       <text>Näytöille HDSPF101 muut pinit</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
