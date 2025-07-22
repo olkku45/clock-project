@@ -23,14 +23,11 @@ and the batteries activating, so to speak, and the clock probably resetting due 
 
 # Images
 
+Here we see the clock's displays.
 ![frontside](clock1.jpg "frontside")
 
-Here we see the clock's displays.
-
+The buttons used to set the time.
 ![buttons](clock2.jpg "buttons")
 
-The buttons used to set the time.
-
-![port](clock3.jpg "port")
-
 The micro-usb port.
+![port](clock3.jpg "port")
